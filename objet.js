@@ -86,13 +86,13 @@
 
 
 
-function toArray(obj) {
+// function toArray(obj) {
 	
 	
-console.log("test reussit");
-return 	Object.entries(obj)
-	//
-}
+// console.log("test reussit");
+// return 	Object.entries(obj)
+// 	//
+// }
 
 
-console.log(toArray({ a: 1, b: 2 }));
+// console.log(toArray({ a: 1, b: 2 }));
