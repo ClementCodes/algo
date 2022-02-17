@@ -1232,22 +1232,42 @@
 
 // arrayOperation(15, 20, 7) ➞ []
 
-function arrayOperation(x, y, n) {
-  let arr = [];
-  let arr2 = [];
+// function arrayOperation(x, y, n) {
+//   let arr = [];
+//   let arr2 = [];
 
-  for (let index = x; index < y + 1; index++) {
-    const element = index;
+//   for (let index = x; index < y + 1; index++) {
+//     const element = index;
 
-    arr.push(element);
-  }
+//     arr.push(element);
+//   }
 
-  let halo = arr.map((tour) => (tour % n === 0 ? arr2.push(tour) : false));
+//   let halo = arr.map((tour) => (tour % n === 0 ? arr2.push(tour) : false));
 
-  return arr2;
-}
+//   return arr2;
+// }
 
-console.log(arrayOperation(1, 10, 3));
-console.log([3, 6, 9]);
-console.log(10 % 1);
-console.log(arrayOperation(15, 20, 5));
+// console.log(arrayOperation(1, 10, 3));
+// console.log([3, 6, 9]);
+// console.log(10 % 1);
+// console.log(arrayOperation(15, 20, 5));
+// let array = [
+//   { lib: "clement", lob: "sebastien" },
+//   { libo: "momo", lobi: "nicol" },
+// ];
+// array.map((tour) => console.log(tour));
+// array.map((tour) => console.log(tour.lib));
+
+//        le mot cle this
+// let user = {
+//   prenom: "clement",
+//   saiHy() {
+//     console.log(`hello ${this.prenom}`);
+//   },
+// };
+
+// user.saiHy();
+
+// let test = user.saiHy.bind(user);
+// test();
+// console.log(test());
