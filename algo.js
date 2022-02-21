@@ -1271,3 +1271,88 @@
 // let test = user.saiHy.bind(user);
 // test();
 // console.log(test());
+// const animals = ["ant", "bison", "camel", "duck", "elephant"];
+// console.log(animals.slice(""));
+
+// function isRepdigit(num) {
+//   num.split("");
+// }
+
+// function numArgs() {
+//   return this.length;
+// }
+
+// console.log(numArgs());
+
+// function mod(a, b) {
+//   let t = a - b * parseInt(a / b);
+//   return t;
+// }
+
+// console.log(mod(5, 3));
+
+// exercie
+
+// const basicCalculator = (a, o, b) => {
+//   return (b && { "+": a + b, "-": a - b, "/": a / b, "*": a * b }[o]) || null;
+// };
+
+// basicCalculator2 = (a, o, b) =>
+//   (b && { "+": a + b, "-": a - b, "/": a / b, "*": a * b }[o]) || null;
+
+// console.log(basicCalculator(2, "o", 4));
+// console.log(basicCalculator(2, "*", 4));
+// console.log(basicCalculator2(2, "*", 4));
+// console.log(typeof basicCalculator2);
+// function keyboardMistakes(txt) {
+//   const o = {
+//     4: "A",
+//     5: "S",
+//     0: "O",
+//     1: "I",
+//   };
+//   return txt.replace(/[4501]/g, (x) => o[x]);
+// }
+
+// console.log(keyboardMistakes("MUB45H"));
+
+// function toArray(num) {
+//   let hello = parseInt(num);
+
+//   arr = [];
+
+//   arr.push(hello);
+
+//   let hiha = arr.toString();
+//   let spe = hiha.split("");
+//   let ti = spe.join();
+//   arr2 = [];
+//   console.log(ti);
+//   arr2.push(ti);
+//   return arr2;
+// }
+// console.log(toArray(235));
+
+// const numbers = [1, 2, 3, 4, 5, 6];
+
+// console.log(...numbers);
+
+// function nextSquare(n) {
+
+// 	if(n**2 == (n**2%2 ==1 ) )
+// 	return true
+// }
+
+// n % 2 == 0;
+function nextSquare(n) {
+  let sqrt = Math.sqrt(n);
+
+  if (sqrt == Math.floor(sqrt)) {
+    return Math.pow(sqrt + 1, 2);
+  } else {
+    return null;
+  }
+}
+
+console.log(nextSquare(121));
+console.log(nextSquare(114));
